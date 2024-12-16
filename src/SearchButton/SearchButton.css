@@ -1,0 +1,13 @@
+.search__btn {
+  padding: 4px 22px;
+  width: max-content;
+}
+
+.search__btn--status {
+  padding: 4px;
+  width: 126px;
+}
+
+.search__btn--del {
+  text-decoration: line-through;
+}

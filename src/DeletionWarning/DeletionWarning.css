@@ -1,0 +1,72 @@
+.window {
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--black-transparent);
+  animation: open-window-fon .25s linear;
+}
+
+.window__wrap {
+  position: relative;
+  flex-flow: column nowrap;
+  gap: 18px;
+  padding: 30px 40px;
+  border: 2px solid var(--purple);
+  border-radius: 28px;
+  width: clamp(380px, 80vw, 600px);
+  background-color: #242424;
+  box-shadow: 0px 0px 35px 0px var(--amaranth);
+  animation: open-window .25s linear;
+}
+
+.window__close {
+  position: absolute;
+  top: -12px;
+  right: -5px;
+  padding: 0;
+  border: none;
+  width: min-content;
+  height: auto;
+  background-color: transparent;
+  transform: rotateZ(19deg);
+}
+
+.window__close svg {
+  width: 55px;
+  height: 55px;
+}
+
+.window__span {
+  gap: 16px;
+}
+
+
+
+@media (max-width: 640px) {
+  .window__wrap {
+    gap: 10px;
+    padding: 15px 20px;
+    box-shadow: none;
+  }
+
+  .window__close {
+    top: -22px;
+    right: 0px;
+  }
+
+  .window__close svg {
+    height: 40px;
+    width: 40px;
+  }
+
+  .window__span {
+    gap: 10px;
+  }
+}

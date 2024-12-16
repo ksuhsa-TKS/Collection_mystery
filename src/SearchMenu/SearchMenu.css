@@ -1,0 +1,11 @@
+.search-menu {
+  justify-content: center;
+  gap: 15px;
+  width: 100%;
+}
+
+@media (max-width: 640px) {
+  .search-menu {
+    gap: 10px;
+  }
+}

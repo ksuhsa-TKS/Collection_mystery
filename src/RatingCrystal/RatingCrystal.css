@@ -1,0 +1,36 @@
+.rating {
+  gap: 6px;
+  height: 34px;
+}
+
+.stone {
+  padding: 0;
+  height: 100%;
+  width: 23px;
+  background: url('../assets/rating.svg') no-repeat center / contain;
+  appearance: none;
+  cursor: pointer;
+  transition: background .18s ease-in-out;
+}
+
+.stone:checked {
+  width: 35px;
+  background: url('../assets/ratingColor.svg') no-repeat center / contain;
+}
+
+@media (max-width: 640px) {
+  .rating {
+    gap: 3px;
+    height: 28px;
+  }
+
+  .stone {
+    height: 80%;
+    width: 16px;
+  }
+
+  .stone:checked {
+    height: 100%;
+    width: 26px;
+  }
+}

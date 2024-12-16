@@ -1,0 +1,20 @@
+.memo {
+  position: fixed;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%) rotateZ(180deg);
+  flex-wrap: nowrap;
+  justify-content: center;
+  gap: 6px;
+  padding: 4px;
+  height: max-content;
+  width: min-content;
+  writing-mode: vertical-rl;
+}
+
+.memo__descr {
+  padding: 6px 3px;
+  border: 1px solid var(--silver);
+  border-radius: 15px;
+  color: var(--silver);
+}
