@@ -1,8 +1,4 @@
-# React + Vite
+Коллекция тайн - это сайт для хранения базы настольных игр.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Данный сайт был создан дабы упорядочить коллекцию настольных игр, визуализировать и понять весь объем преобретенных игр. На сайт можно внести/изменить/удалить какую либо игру, так же весь список можно отсортровать по по алфовиту/рейтингу, найти по наиминованию, или углубить поиск через варонки: жанра, кол-ва игрогов, издателя, автора.
+Стэк используемы для создания: React.js, Vite.js, MobX.
