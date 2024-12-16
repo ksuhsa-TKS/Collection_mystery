@@ -1,0 +1,1338 @@
+[
+  {
+    "name": "Bullet: Orange",
+    "img": "https://avatars.mds.yandex.net/get-mpic/6338835/img_id7940760018326906507.jpeg/orig",
+    "genre": "Реал тайм, стратегия, дуэль, соло",
+    "player": "1-4",
+    "time": "15",
+    "id": 1731444893551,
+    "author": "Джошуа Ван Лэнингхэм",
+    "publisher": "Gaga games",
+    "descr": "Четыре новые героини.",
+    "rating": {
+      "gameplay": "8",
+      "visually": "10",
+      "impression": "10"
+    },
+    "allRating": "9",
+    "status": true,
+    "base": false,
+    "pnp": true
+  },
+  {
+    "name": "Bullet: Star",
+    "img": "https://shop.meeplehouse.ru/upload/iblock/2a6/9rkj1l7ww42zyvbcbib516p0qxjvvrnq/ae95d8cedf63bb97fe5ed604299d08e5.jpg",
+    "genre": "Реал тайм, стратегия, дуэль, соло",
+    "player": "1-4",
+    "time": "15",
+    "id": 1731445003832,
+    "author": "Джошуа Ван Лэнингхэм",
+    "publisher": "Gaga games",
+    "descr": "Новые персонажи и компоненты к ним. С этой коробкой можно играть и до 6-8 человек.",
+    "rating": {
+      "gameplay": "8",
+      "visually": "10",
+      "impression": "10"
+    },
+    "allRating": "9",
+    "status": true,
+    "base": true,
+    "pnp": false
+  },
+  {
+    "name": "Bullet: Ураганный экшен",
+    "img": "https://goodork.ru/pictures/product/big/137714_big.jpg",
+    "genre": "Реал тайм, стратегия, соло, дуэль",
+    "player": "1-4",
+    "time": "15",
+    "id": 1731444713951,
+    "author": "Джошуа Ван Лэнингхэм",
+    "publisher": "Gaga games",
+    "descr": "Динамичная экшен-стратегия в режиме реального времени, вдохновленная аниме-сериалами и видеоиграми в жанре shoot’em’up, bullet hell, пазл и тетрис.",
+    "rating": {
+      "gameplay": "8",
+      "visually": "9",
+      "impression": "10"
+    },
+    "allRating": "9",
+    "status": true,
+    "base": true,
+    "pnp": true
+  },
+  {
+    "name": "Dragonheart",
+    "img": "https://thegameofgaming.wordpress.com/wp-content/uploads/2010/03/drachenherz-box.jpg",
+    "genre": "Дуэль",
+    "player": "2",
+    "time": "20-30",
+    "id": 1731520392504,
+    "author": "Рюдигер Дорн",
+    "publisher": "KOSMOS",
+    "descr": "Быстрая карточная игра с полем для двух игроков. Цель игры — обогнать соперника по очкам, указанным на картах, постоянно обменивая карты с руки на карты с поля.\nЗначит собирал ты себе на поле очки, а оппонент взял их и забрал себе. Редиска.",
+    "rating": {
+      "gameplay": "9",
+      "visually": "8",
+      "impression": "10"
+    },
+    "allRating": "9",
+    "status": true,
+    "base": true,
+    "pnp": true
+  },
+  {
+    "name": "Unmatched: Беовульф и Красная Шапочка",
+    "img": "https://avatars.mds.yandex.net/i?id=ea34cecb73ea2ba347eaa08bb5cf45e7_l-8497453-images-thumbs&n=13",
+    "genre": "Дуэль",
+    "player": "2-4",
+    "time": "30",
+    "id": 1731424594615,
+    "author": "Noah Cohen, Rob Daviau, Justin D. Jacobson, Chris Leder, Brian Neff",
+    "publisher": "Gaga games",
+    "descr": "Оба персонажи понравились, боевые ребятки.",
+    "rating": {
+      "gameplay": "10",
+      "visually": "10",
+      "impression": "9"
+    },
+    "allRating": "10",
+    "status": true,
+    "base": true
+  },
+  {
+    "name": "Unmatched: Битва Легенд",
+    "img": "https://main-cdn.sbermegamarket.ru/hlr-system/-43/525/899/253/045/600004992754b0.jpg",
+    "genre": "Дуэль",
+    "player": "2-4",
+    "time": "30",
+    "id": 1731414982480,
+    "author": "Noah Cohen, Rob Daviau, Justin D. Jacobson, Chris Leder, Brian Neff",
+    "publisher": "Gaga games",
+    "descr": "Битва Легенд – это первая игра серии, в которой в бою схлестнутся сразу четверо героев: король Артур, Алиса из Страны Чудес, горгона Медуза и Синдбад-мореход.\nИдеальная стратегическая дуэль - простая но при этом очень интересная.",
+    "rating": {
+      "gameplay": "9",
+      "visually": "9",
+      "impression": "10"
+    },
+    "allRating": "9",
+    "status": true,
+    "base": true
+  },
+  {
+    "name": "Unmatched: Гудини и Джинн",
+    "img": "https://cdn1.ozone.ru/s3/multimedia-y/6706714174.jpg",
+    "genre": "Дуэль",
+    "player": "2-4",
+    "time": "30",
+    "id": 1731424970366,
+    "author": "Noah Cohen, Rob Daviau, Justin D. Jacobson, Chris Leder, Brian Neff",
+    "publisher": "Gaga games",
+    "descr": "Гудини против Джинна — это первозданная магия хаоса против человеческой изобретательности и смекалки.\nКолода улетает на раз два.",
+    "rating": {
+      "gameplay": "10",
+      "visually": "10",
+      "impression": "10"
+    },
+    "allRating": "10",
+    "status": true,
+    "base": true
+  },
+  {
+    "name": "Unmatched: Приключения",
+    "img": "https://avatars.mds.yandex.net/get-mpic/10683269/2a0000018aae75b226535693e3ef4ff40173/orig",
+    "genre": "Кооператив, дуэль",
+    "player": "2-4",
+    "time": "30",
+    "id": 1731425406025,
+    "author": "Noah Cohen, Rob Daviau, Justin D. Jacobson, Chris Leder, Brian Neff",
+    "publisher": "Gaga games",
+    "descr": "Выступите сообща против сил зла в кооперативном режиме вместе с новой четвёркой выдающихся героев: Николой Теслой, Энни Кристмас, Золотым Крыланом и Джилл Трент.",
+    "rating": {
+      "gameplay": "0",
+      "visually": "7",
+      "impression": "0"
+    },
+    "allRating": "2",
+    "status": false,
+    "base": true
+  },
+  {
+    "name": "Unmatched: Робин Гуд и Бигфут",
+    "img": "https://static.insales-cdn.com/images/products/1/5421/553653549/unmatched-bigfut-protiv-robin-guda.jpg",
+    "genre": "Дуэль",
+    "player": "2-4",
+    "time": "30",
+    "id": 1731424870000,
+    "author": "Noah Cohen, Rob Daviau, Justin D. Jacobson, Chris Leder, Brian Neff",
+    "publisher": "Gaga games",
+    "descr": "Интересные персонажи, весело играть (особенно за Бигфута c:< )",
+    "rating": {
+      "gameplay": "10",
+      "visually": "10",
+      "impression": "10"
+    },
+    "allRating": "10",
+    "status": true,
+    "base": true
+  },
+  {
+    "name": "Unmatched: Том 2",
+    "img": "https://boardgames-bg.com/images/detailed/22/unmatched-battle-of-legends-vol-two-board-game-canada_1024x1024.jpg",
+    "genre": "Дуэль",
+    "player": "2-4",
+    "time": "30",
+    "id": 1731424061488,
+    "author": "Noah Cohen, Rob Daviau, Justin D. Jacobson, Chris Leder, Brian Neff",
+    "publisher": "Gaga games",
+    "descr": "Встречайте легендарного Ахиллеса, царя обезьян Сунь Укуна, жуткую Кровавую Мэри и африканскую принцессу Йенненгу.\nИнтересно, но странно, словно базу пытались переработать и случайно усложнили/недоработали.",
+    "rating": {
+      "gameplay": "10",
+      "visually": "8",
+      "impression": "5"
+    },
+    "allRating": "8",
+    "status": true,
+    "base": true
+  },
+  {
+    "name": "Unmatched: Туман над мостовой",
+    "img": "https://cdn1.ozone.ru/s3/multimedia-1-n/6949996619.jpg",
+    "genre": "Дуэль",
+    "player": "2-4",
+    "time": "30",
+    "id": 1731424409975,
+    "author": "Noah Cohen, Rob Daviau, Justin D. Jacobson, Chris Leder, Brian Neff",
+    "publisher": "Gaga games",
+    "descr": "Новые нестандартные персонажи: Граф Дракула, Доктор Джекил, Шерлок Холмс, Человек-невидимка. Все куда-то скрываются, увеличиваются, сходят с ума... Бодренько в общем.",
+    "rating": {
+      "gameplay": "9",
+      "visually": "10",
+      "impression": "9"
+    },
+    "allRating": "9",
+    "status": true,
+    "base": true
+  },
+  {
+    "name": "Воины Черной Розы",
+    "img": "https://avatars.mds.yandex.net/get-mpic/4590616/img_id2327806909197049101.jpeg/orig",
+    "genre": "Дуэль, стратегия, колодострой",
+    "player": "2-4",
+    "time": "90+",
+    "id": 1731788216569,
+    "author": "Марко Монтанаро",
+    "publisher": "Hobby world",
+    "descr": "Это тактическая фэнтезийная арена, на которой могущественные маги эпохи Ренессанса, члены Ложи Чёрной Розы, сражаются за право стать новым Великим Магистром Ложи. Они выполняют желания Черной Розы, сильнейшего разумного артефакта, призывают себе на помощь воплощения разнообразных существ, изучают заклинания магических школ, включая разрушительные Забытые заклинания. Однако может случиться так, что никто не сможет одержать победу, и тогда Черная Роза выйдет из-под контроля.",
+    "rating": {
+      "gameplay": "9",
+      "visually": "10",
+      "impression": "10"
+    },
+    "allRating": "10",
+    "status": true,
+    "base": true,
+    "pnp": true
+  },
+  {
+    "name": "Воины Черной Розы: Crono Expansion",
+    "img": "https://tesera.ru/images/items/1349450,3/200x200xpa/photo1.jpg",
+    "genre": "Дуэль, соло, стратегия, колодострой",
+    "player": "1-4",
+    "time": "90+",
+    "id": 1731788363984,
+    "author": "Марко Монтанаро",
+    "publisher": "Hobby world",
+    "descr": "Кроно - многовековая конструкция из эры далёкого прошлого, который является хранителем Ложи Чёрной розы в Праге.",
+    "rating": {
+      "gameplay": "0",
+      "visually": "0",
+      "impression": "0"
+    },
+    "allRating": "0",
+    "status": false,
+    "base": false,
+    "pnp": true
+  },
+  {
+    "name": "Воины Черной Розы: Sator box",
+    "img": "https://cf.geekdo-images.com/nr_9kS_ktp_cPZqLQk7tkw__imagepagezoom/img/4KvpL8ZXFanSRKAr_F4pqmVqVdw=/fit-in/1200x900/filters:no_upscale():strip_icc()/pic5826281.jpg",
+    "genre": "Дуэль, соло, стратегия, колодострой",
+    "player": "1-6",
+    "time": "90-180",
+    "id": 1731788917473,
+    "author": "Марко Монтанаро",
+    "publisher": "Hobby World",
+    "descr": "Расширение игры: новые персонажи, комнаты, заклинания и т.д. Также включает в себя специальный соло-режим, режим кампании и асимметричные версии всех магов в игре.",
+    "rating": {
+      "gameplay": "0",
+      "visually": "0",
+      "impression": "0"
+    },
+    "allRating": "0",
+    "status": false,
+    "base": true,
+    "pnp": true
+  },
+  {
+    "name": "Воины Черной Розы: Возрождение",
+    "img": "https://igromaster.by/upload/iblock/a16/52aio1ki4bmjn91dzarwqxz64sfs6ces.jpg",
+    "genre": "Дуэль, стратегия, колодострой, соло",
+    "player": "1-4",
+    "time": "90+",
+    "id": 1731789455778,
+    "author": "Марко Монтанаро",
+    "publisher": "Hobby world",
+    "descr": "Это вторая глава серии.",
+    "rating": {
+      "gameplay": "0",
+      "visually": "0",
+      "impression": "0"
+    },
+    "allRating": "0",
+    "status": false,
+    "base": true,
+    "pnp": true
+  },
+  {
+    "name": "Воины Черной Розы: Возрождение - Rotas box",
+    "img": "https://tesera.ru/images/items/2342772,3/200x200xpa/photo1.png",
+    "genre": "Дуэль, соло, стратегия, колодострой",
+    "player": "1-6",
+    "time": "90+",
+    "id": 1731790386115,
+    "author": "Марко Монтанаро",
+    "publisher": "Hobby World",
+    "descr": "Дополнение игры: новые модели, школы магии, маги, плитки комнат и прочее. Так же 7 новых Аватаров с их командными картами, чтобы управлять ИА и играть в захватывающие полукооперативные игры.",
+    "rating": {
+      "gameplay": "0",
+      "visually": "0",
+      "impression": "0"
+    },
+    "allRating": "0",
+    "status": false,
+    "base": true,
+    "pnp": true
+  },
+  {
+    "name": "Воины Черной Розы: Возрождение - Апокалипсис",
+    "img": "https://mywishboard.com/thumbs/wish/e/l/a/400x0_arqhsxjmzwhzopid_jpg_e357.jpg",
+    "genre": "Дуэль, стратегия, колодострой",
+    "player": "2-4",
+    "time": "90+",
+    "id": 1731789601531,
+    "author": "Марко Монтанаро",
+    "publisher": "Hobby world",
+    "descr": "4 новых персонажа: Голод, Война, Чума и Смерть. Так же можно собрать своего мага с колодой и принять участие в Турнире.",
+    "rating": {
+      "gameplay": "0",
+      "visually": "0",
+      "impression": "0"
+    },
+    "allRating": "0",
+    "status": false,
+    "base": false,
+    "pnp": true
+  },
+  {
+    "name": "Воины Черной Розы: Возрождение - Ирена",
+    "img": "https://avatars.mds.yandex.net/get-mpic/12390131/2a000001900e2b8090cd7a0620e89db28c9c/orig",
+    "genre": "Дуэль, соло, стратегия, колодострой",
+    "player": "1-4",
+    "time": "90+",
+    "id": 1731789893115,
+    "author": "Марко Монтанаро",
+    "publisher": "Hobby World",
+    "descr": "Новый персонаж.",
+    "rating": {
+      "gameplay": "0",
+      "visually": "0",
+      "impression": "0"
+    },
+    "allRating": "0",
+    "status": false,
+    "base": false,
+    "pnp": true
+  },
+  {
+    "name": "Воины Черной Розы: Возрождение - Кузница страха",
+    "img": "https://hobbygames.by/image/cache/hobbygames/data/-new/hobby-world/vojni-chjornoj-rozi-vozrozhdenie/kuznica-straha/kuznica-straha-00-1024x1024-wm.jpg",
+    "genre": "Дуэль, соло, стратегия, колодострой",
+    "player": "1-4",
+    "time": "90+",
+    "id": 1731790271803,
+    "author": "Марко Монтанаро",
+    "publisher": "Hobby world",
+    "descr": "Новый сценарий игры с Аватаром Этна.",
+    "rating": {
+      "gameplay": "0",
+      "visually": "0",
+      "impression": "0"
+    },
+    "allRating": "0",
+    "status": false,
+    "base": false,
+    "pnp": true
+  },
+  {
+    "name": "Воины Черной Розы: Возрождение - Печать огня",
+    "img": "https://hobbygames.by/image/data/-new/hobby-world/vojni-chjornoj-rozi-vozrozhdenie/pechat-ognja/pechat-ognja-00.jpg",
+    "genre": "Дуэль, соло, стратегия, колодострой",
+    "player": "1-4",
+    "time": "90+",
+    "id": 1731789749091,
+    "author": "Марко Монтанаро",
+    "publisher": "Hobby world",
+    "descr": "Добавляет в игру нового мага, особое воплощение и трёх фамильяров.",
+    "rating": {
+      "gameplay": "0",
+      "visually": "0",
+      "impression": "0"
+    },
+    "allRating": "0",
+    "status": false,
+    "base": false,
+    "pnp": true
+  },
+  {
+    "name": "Воины Черной Розы: Возрождение - Пробуждение Геи",
+    "img": "https://hobbygames.ru/image/data/-new/hobby-world/vojni-chjornoj-rozi-vozrozhdenie/probuzhdenie-gei/brw-probuzhdenie-gei-00.jpg",
+    "genre": "Дуэль, соло, стратегия, колодострой",
+    "player": "1-4",
+    "time": "90+",
+    "id": 1731790031115,
+    "author": "Марко Монтанаро",
+    "publisher": "Hobby world",
+    "descr": "Добавление нового героя + школы магии Геомантии, новый аватар Гея, и особый режим игры с легендарным сценарием.",
+    "rating": {
+      "gameplay": "0",
+      "visually": "0",
+      "impression": "0"
+    },
+    "allRating": "0",
+    "status": false,
+    "base": false,
+    "pnp": true
+  },
+  {
+    "name": "Воины Черной Розы: Возрождение - Смертельная маска",
+    "img": "https://hobbygames.ru/image/data/-new/hobby-world/vojni-chjornoj-rozi-vozrozhdenie/smertelnaja-maska/vcr-vozrozhdenie-smertelnaja-maska-00.jpg",
+    "genre": "Дуэль, соло, стратегия, колодострой",
+    "player": "1-6",
+    "time": "90+",
+    "id": 1731790199091,
+    "author": "Марко Монтанаро",
+    "publisher": "Hobby world",
+    "descr": "Теперь можно играть в 6-ром, два новых мага и школы магии.",
+    "rating": {
+      "gameplay": "0",
+      "visually": "0",
+      "impression": "0"
+    },
+    "allRating": "0",
+    "status": false,
+    "base": false,
+    "pnp": true
+  },
+  {
+    "name": "Воины Черной Розы: Возрождение - Юкас",
+    "img": "https://hobbygames.ru/image/data/-new/hobby-world/vojni-chjornoj-rozi-vozrozhdenie/jukas/brw-jukas-00.jpg",
+    "genre": "Дуэль, соло, стратегия, колодострой",
+    "player": "1-4",
+    "time": "90+",
+    "id": 1731789814019,
+    "author": "Марко Монтанаро",
+    "publisher": "Hobby World",
+    "descr": "Новый Аватар Юкас со своими правилами игры.",
+    "rating": {
+      "gameplay": "0",
+      "visually": "0",
+      "impression": "0"
+    },
+    "allRating": "0",
+    "status": false,
+    "base": false,
+    "pnp": true
+  },
+  {
+    "name": "Воины Черной Розы: Преисподня",
+    "img": "https://arma-models.ru/upload/iblock/411/on46f1ju2imypc634oxh5iop6vmw3gpc.jpg",
+    "genre": "Дуэль, стратегия, колодострой",
+    "player": "2-4",
+    "time": "90+",
+    "id": 1731788479421,
+    "author": "Марко Монтанаро",
+    "publisher": "Hobby world",
+    "descr": "Дополнение, которое привносит более сложный режим игры: теперь помимо противостояния другим претендентам на титул Магистра вам придётся бороться с самим владыкой преисподней и его приспешниками. Одолеть Люцифера будет непросто, но как известно, враг моего врага – мой друг, поэтому не стесняйтесь договариваться о временных союзах с другими магами, чтобы не попасть в трудные ситуации.",
+    "rating": {
+      "gameplay": "0",
+      "visually": "0",
+      "impression": "0"
+    },
+    "allRating": "0",
+    "status": false,
+    "base": false,
+    "pnp": true
+  },
+  {
+    "name": "Воины Черной Розы: Скрытые шипы",
+    "img": "https://goodork.ru/pictures/product/big/141816_big.jpg",
+    "genre": "Дуэль, соло, стратегия, колодострой",
+    "player": "5-6",
+    "time": "90+",
+    "id": 1731788629145,
+    "author": "Марко Монтанаро",
+    "publisher": "Hobby world",
+    "descr": "Дополнение позволяет играть в 6-ром + 2новыч мага.\nБрали оттуда персонажей. Они великолепны.",
+    "rating": {
+      "gameplay": "10",
+      "visually": "10",
+      "impression": "10"
+    },
+    "allRating": "10",
+    "status": true,
+    "base": false,
+    "pnp": true
+  },
+  {
+    "name": "Воины Черной Розы: Фамильяры - Гидры",
+    "img": "https://cdn1.ozone.ru/s3/multimedia-1-6/6914160510.jpg",
+    "genre": "Дуэль, соло, стратегия, колодострой",
+    "player": "1-6",
+    "time": "90+",
+    "id": 1731789083418,
+    "author": "Марко Монтанаро",
+    "publisher": "Hobby world",
+    "descr": "",
+    "rating": {
+      "gameplay": "0",
+      "visually": "0",
+      "impression": "0"
+    },
+    "allRating": "0",
+    "status": false,
+    "base": false,
+    "pnp": true
+  },
+  {
+    "name": "Воины Черной Розы: Фамильяры - Грифоны ",
+    "img": "https://cdn1.ozone.ru/s3/multimedia-1-q/6914152754.jpg",
+    "genre": "Дуэль, соло, стратегия, колодострой",
+    "player": "1-6",
+    "time": "90+",
+    "id": 1731789227322,
+    "author": "Марко Монтанаро",
+    "publisher": "Hobby world",
+    "descr": "",
+    "rating": {
+      "gameplay": "0",
+      "visually": "0",
+      "impression": "0"
+    },
+    "allRating": "0",
+    "status": false,
+    "base": false,
+    "pnp": true
+  },
+  {
+    "name": "Воины Черной Розы: Фамильяры - Драконы ",
+    "img": "https://avatars.mds.yandex.net/get-mpic/12301605/2a0000018d6c76afbbe6e78a4817dab28200/orig",
+    "genre": "Дуэль, соло, стратегия, колодострой",
+    "player": "1-6",
+    "time": "90+",
+    "id": 1731789290434,
+    "author": "Марко Монтанаро",
+    "publisher": "Hobby world",
+    "descr": "",
+    "rating": {
+      "gameplay": "0",
+      "visually": "0",
+      "impression": "0"
+    },
+    "allRating": "0",
+    "status": false,
+    "base": false,
+    "pnp": true
+  },
+  {
+    "name": "Воины Черной Розы: Фамильяры - Церберы",
+    "img": "https://murmanhobby.ru/upload/iblock/b33/k8hu0t7yzrbsncv2bfgjqxecw3iry1vb.jpg",
+    "genre": "Дуэль, соло, стратегия, колодострой",
+    "player": "1-6",
+    "time": "90+",
+    "id": 1731789182450,
+    "author": "Марко Монтанаро",
+    "publisher": "Hobby world",
+    "descr": "",
+    "rating": {
+      "gameplay": "0",
+      "visually": "0",
+      "impression": "0"
+    },
+    "allRating": "0",
+    "status": false,
+    "base": false,
+    "pnp": true
+  },
+  {
+    "name": "Война кольца: Второе издание",
+    "img": "https://cdn1.ozone.ru/s3/multimedia-v/6191993827.jpg",
+    "genre": "Дуэль, стратегия",
+    "player": "2-4",
+    "time": "120+",
+    "id": 1731616278143,
+    "author": "Роберто Ди Мельо, Марко Магги, Франческо Непителло",
+    "publisher": "Gaga games",
+    "descr": "Это грандиозная настольная стратегия. Игра рассчитана на противостояние двух сторон, светлой и тёмной. По ходу партии предстоит нанимать войска, брать штурмом города Средиземья и отвоёвывать их обратно, решать, куда направятся герои и что они будут делать.",
+    "rating": {
+      "gameplay": "9",
+      "visually": "10",
+      "impression": "10"
+    },
+    "allRating": "10",
+    "status": true,
+    "base": true,
+    "pnp": false
+  },
+  {
+    "name": "Война кольца: Второе издание - Владыки Средиземья",
+    "img": "https://main-cdn.sbermegamarket.ru/hlr-system/-60/237/862/232/815/52/100030987660b0.jpg",
+    "genre": "Дуэль, стратегия",
+    "player": "2-4",
+    "time": "180+",
+    "id": 1731616398648,
+    "author": "Роберто Ди Мельо, Марко Магги, Франческо Непителло",
+    "publisher": "Gaga games",
+    "descr": "Дополнение включает: правителям и полководцам, хранителей эльфийских колец, лидеров злых сил. Игрок за свободные народы также сможет отправить членов Братства на подмогу своим армиям, а Голлума можно будет встретить задолго до Мории. Кроме этого, можно будет выбрать другие способности членов Братства Кольца и преподнести силам зла несколько неприятных сюрпризов.",
+    "rating": {
+      "gameplay": "0",
+      "visually": "0",
+      "impression": "0"
+    },
+    "allRating": "0",
+    "status": false,
+    "base": false,
+    "pnp": false
+  },
+  {
+    "name": "Война кольца: Второе издание - Воины Средиземья",
+    "img": "https://hobbygames.ru/image/cache/hobbygames_beta/data/Gaga/War_of_the_Ring/hg/Voina_Kolca_Voini_Sredezemia-1024x1024-wm.jpg",
+    "genre": "Дуэль, стратегия",
+    "player": "2-4",
+    "time": "120+",
+    "id": 1731616479570,
+    "author": "Роберто Ди Мельо, Марко Магги, Франческо Непителло",
+    "publisher": "Gaga games",
+    "descr": "Это дополнением сделает ваши партии в \"Войну Кольца\" ещё интереснее и вариативнее: с шестью новыми фракциями вы сможете написать действительно уникальную историю борьбы свободных народов Средиземья против Саурона.",
+    "rating": {
+      "gameplay": "0",
+      "visually": "0",
+      "impression": "0"
+    },
+    "allRating": "0",
+    "status": false,
+    "base": false,
+    "pnp": false
+  },
+  {
+    "name": "Война кольца: Второе издание - Короли Средиземья",
+    "img": "https://avatars.mds.yandex.net/i?id=8f44b9dad705a49e285b70c9ee1f7f7b3832f988-4972495-images-thumbs&n=13",
+    "genre": "Дуэль, стратегия",
+    "player": "2-4",
+    "time": "150-180",
+    "id": 1731616576388,
+    "author": "Роберто Ди Мельо, Марко Магги, Франческо Непителло",
+    "publisher": "Gaga games",
+    "descr": "Дополнение которое позволит вам воспроизвести противостояние между армией тьмы и армиями Дейла, Эребора, Минас Тирита, Эдораса и Лесного Королевства. Небольшие изменения в механике добавят азарта и интереса.",
+    "rating": {
+      "gameplay": "0",
+      "visually": "0",
+      "impression": "0"
+    },
+    "allRating": "0",
+    "status": false,
+    "base": false,
+    "pnp": false
+  },
+  {
+    "name": "Война кольца: Карточная игра",
+    "img": "https://veselosidim.ru/images/thumbnails/978/800/detailed/26/Война_Кольца._Карточная_игра.jpg",
+    "genre": "Стратегия, дуэль",
+    "player": "2-4",
+    "time": "90+",
+    "id": 1731527835863,
+    "author": "Ian Brody",
+    "publisher": "Gaga games",
+    "descr": "Стратегическое противостояние силы Свободных народов силам Тьмы. Карты в игре делятся на 2 типа – фракции и локации. Каждый раунд будет открываться новая локация, принадлежащая одной из сторон, в которой игрокам предстоит сталкивать свои войска в ожесточённом сражении и получать победные очки за успех их фракции в битве.",
+    "rating": {
+      "gameplay": "0",
+      "visually": "0",
+      "impression": "0"
+    },
+    "allRating": "0",
+    "status": false,
+    "base": true,
+    "pnp": false
+  },
+  {
+    "name": "Звездные империи",
+    "img": "https://nizagams.ru/wp-content/uploads/2018/11/Звёздные-империи.-Подарочное-издание-1.jpg",
+    "genre": "Колодострой, дуэль",
+    "player": "от 2",
+    "time": "30-60",
+    "id": 1731411285618,
+    "author": "Дарвин Кастл, Роберт Догерти",
+    "publisher": "Hobby world",
+    "descr": "Далёкое будущее охвачено пламенем великой войны за господство над целой галактикой…Торговая Федерация давит своей развитой экономикой, коллективный рой Слизней ведёт стремительную экспансию, а милитаристская Звездная империя и прогрессивный Технокульт отправляют свои корабли на войну. Только вы сможете определить исход этого конфликта. Покорите галактику и построите свою звёздную империю!",
+    "rating": {
+      "gameplay": "10",
+      "visually": "10",
+      "impression": "10"
+    },
+    "allRating": "10",
+    "status": true,
+    "base": true
+  },
+  {
+    "name": "Звездные империи: Альянс",
+    "img": "https://hobbygames.ru/image/cache/hobbygames_beta/data/HobbyWorld/Zvezdnye_Imperii/Alyans/zvezdnye_imperii_alyans_00-1024x1024.jpg",
+    "genre": "Дуэль, колодострой",
+    "player": "2",
+    "time": "30-60",
+    "id": 1731511160436,
+    "author": "Дарвин Кастл, Роберт Догерти",
+    "publisher": "Hobby world",
+    "descr": "Космические империи слишком долго воюют, деля галактику на сферы своего влияния и выкачивая ресурсы из колоний. Война на истощение заставила многие государства пересмотреть своё отношение к противникам и заключить с некоторыми из них союзы против других в поисках военной помощи.",
+    "rating": {
+      "gameplay": "10",
+      "visually": "10",
+      "impression": "10"
+    },
+    "allRating": "10",
+    "status": true,
+    "base": false,
+    "pnp": false
+  },
+  {
+    "name": "Звездные империи: Колониальные воины",
+    "img": "https://vsedrugoeshop.ru/upload/ammina.optimizer/png-webp/q80/upload/iblock/276/2761013536df4fc2bd6da8be6cdb8312/photoeditorsdk_export.webp",
+    "genre": "Дуэль, колодострой",
+    "player": "2-6",
+    "time": "30-60",
+    "id": 1731510936247,
+    "author": "Дарвин Кастл, Роберт Догерти",
+    "publisher": "Hobby world",
+    "descr": "Самостоятельная колодостроительная игра рассчитанная на двух игроков. Внутри вы найдете свыше 40 видов новых звездолетов и аванпостов. Также этот набор можно смешать с базовой коробко или второй копией чтобы увеличить количество игроков за столом.",
+    "rating": {
+      "gameplay": "7",
+      "visually": "9",
+      "impression": "8"
+    },
+    "allRating": "8",
+    "status": true,
+    "base": true,
+    "pnp": false
+  },
+  {
+    "name": "Звездные империи: Командиры",
+    "img": "https://avatars.mds.yandex.net/i?id=59a4b686ebd59a180818d7ab7ca37ce7_l-8498443-images-thumbs&ref=rim&n=13&w=1000&h=1000",
+    "genre": "Колодострой, дуэль",
+    "player": "2-3",
+    "time": "30",
+    "id": 1731511678450,
+    "author": "Дарвин Кастл, Роберт Догерти",
+    "publisher": "Hobby world",
+    "descr": "6 колод командиров, 2 гамбита, флагманский корабль. Можно попытаться в одиночку дать отпор сразу против двоих соперников или сыграть в дуэль как обычно.",
+    "rating": {
+      "gameplay": "6",
+      "visually": "7",
+      "impression": "6"
+    },
+    "allRating": "6",
+    "status": true,
+    "base": false,
+    "pnp": false
+  },
+  {
+    "name": "Звездные империи: Фронтир",
+    "img": "https://cdn2.static1-sima-land.com/items/6322066/0/700-nw.jpg",
+    "genre": "Дуэль, колодострой",
+    "player": "1-4",
+    "time": "30",
+    "id": 1731511307940,
+    "author": "Дарвин Кастл, Роберт Догерти",
+    "publisher": "Hobby world",
+    "descr": "Игра предлагает множество различных режимов игры, включая кооперативный со сценариями и даже режим пасьянса.\nСломали базу и сделали нам почти-что новую игру. Бомбически.",
+    "rating": {
+      "gameplay": "10",
+      "visually": "10",
+      "impression": "10"
+    },
+    "allRating": "10",
+    "status": true,
+    "base": true,
+    "pnp": false
+  },
+  {
+    "name": "Каркассон",
+    "img": "https://avatars.mds.yandex.net/get-mpic/5281727/img_id8831915277077989661.jpeg/orig",
+    "genre": "Евро",
+    "player": "2-5",
+    "time": "35",
+    "id": 1731442842166,
+    "author": "Клаус-Юрген Вреде",
+    "publisher": "Hobby world",
+    "descr": "Несколько игроков исполняют роли феодалов, которые разведывают, что да как в окрестных землях, и берут под контроль дороги, захватывают пахотные угодья, строят города и монастыри. ",
+    "rating": {
+      "gameplay": "10",
+      "visually": "10",
+      "impression": "10"
+    },
+    "allRating": "10",
+    "status": true,
+    "base": true
+  },
+  {
+    "name": "Каркассон: Башня",
+    "img": "https://igronaftik.ru/files/cms/common/karkasson_bashna_1.jpg",
+    "genre": "Евро",
+    "player": "2-5",
+    "time": "35",
+    "id": 1731442996796,
+    "author": "Клаус-Юрген Вреде",
+    "publisher": "Hobby world",
+    "descr": "Органайзер в виде башни + новый тайлы местности.",
+    "rating": {
+      "gameplay": "0",
+      "visually": "0",
+      "impression": "0"
+    },
+    "allRating": "0",
+    "status": false,
+    "base": false
+  },
+  {
+    "name": "Каркассон: Бродячий цирк",
+    "img": "https://cdn1.akusherstvo.ru/74f/852/1427559.jpg",
+    "genre": "Евро",
+    "player": "2-5",
+    "time": "35",
+    "id": 1731443225204,
+    "author": "Клаус-Юрген Вреде",
+    "publisher": "Hobby world",
+    "descr": "Поставьте палаточный лагерь и выпускайте на арену дрессированных животных. Нанимайте мастеровитых и талантливых акробатов. Заручитесь поддержкой парочки толковых директоров.",
+    "rating": {
+      "gameplay": "0",
+      "visually": "0",
+      "impression": "0"
+    },
+    "allRating": "0",
+    "status": false,
+    "base": false
+  },
+  {
+    "name": "Каркассон: Граф, Король и Культ",
+    "img": "https://veselosidim.ru/images/thumbnails/1110/908/detailed/20/Kakasson_graf-3d_box_opt.png",
+    "genre": "Евро",
+    "player": "2-5",
+    "time": "35",
+    "id": 1731443036308,
+    "author": "Клаус-Юрген Вреде",
+    "publisher": "Hobby world",
+    "descr": "Новые тайлы местности.",
+    "rating": {
+      "gameplay": "0",
+      "visually": "0",
+      "impression": "0"
+    },
+    "allRating": "0",
+    "status": false,
+    "base": false
+  },
+  {
+    "name": "Каркассон: Мосты, Замки и Базары",
+    "img": "https://veselosidim.ru/images/thumbnails/1111/909/detailed/20/Kakasson_most-3d_box_opt.png",
+    "genre": "Евро",
+    "player": "2-5",
+    "time": "35",
+    "id": 1731443086240,
+    "author": "Клаус-Юрген Вреде",
+    "publisher": "Hobby world",
+    "descr": "Новая механика постройки мостов, торги на базаре за тайлы, возможности построить замок на малом городе.",
+    "rating": {
+      "gameplay": "0",
+      "visually": "0",
+      "impression": "0"
+    },
+    "allRating": "0",
+    "status": false,
+    "base": false
+  },
+  {
+    "name": "Каркассон: Принцесса и Дракон",
+    "img": "https://www.mosigra.ru/image/cache/data/mosigra.market/563/985/1_600x600-1024x1024.jpg",
+    "genre": "Евро",
+    "player": "2-5",
+    "time": "35",
+    "id": 1731442941667,
+    "author": "Клаус-Юрген Вреде",
+    "publisher": "Hobby world",
+    "descr": "Два новых мипла: Дракон и Фея со своими механиками.",
+    "rating": {
+      "gameplay": "0",
+      "visually": "0",
+      "impression": "0"
+    },
+    "allRating": "0",
+    "status": false,
+    "base": false
+  },
+  {
+    "name": "Каркассон: Холмы и овцы",
+    "img": "https://cdn1.akusherstvo.ru/4fb/9f7/1427506.jpg",
+    "genre": "Евро",
+    "player": "2-5",
+    "time": "35",
+    "id": 1731443165233,
+    "author": "Клаус-Юрген Вреде",
+    "publisher": "Hobby world",
+    "descr": "Новые тайлы и жетоны дополняют игру.",
+    "rating": {
+      "gameplay": "0",
+      "visually": "0",
+      "impression": "0"
+    },
+    "allRating": "0",
+    "status": false,
+    "base": false
+  },
+  {
+    "name": "Максимум апокалипсис",
+    "img": "https://hobbygames.ru/image/cache/hobbygames_beta/data/Gaga/Maximum_Apocalypse/maximum_apokalipsis-1024x1024.JPG",
+    "genre": "Данжн кроулер, кооператив, соло",
+    "player": "1-6",
+    "time": "45-90",
+    "id": 1731441293361,
+    "author": "Майк Гнейд",
+    "publisher": "Gaga games",
+    "descr": "Это динамичная настольная игра о выживании после конца света. Каждый игрок берёт под свой контроль уникального персонажа со своей колодой и перемещается по местности открывая тайлы и надеясь не попасть на монстров попутно выполняя миссии.",
+    "rating": {
+      "gameplay": "10",
+      "visually": "10",
+      "impression": "10"
+    },
+    "allRating": "10",
+    "status": true,
+    "base": true
+  },
+  {
+    "name": "Максимум апокалипсис: Wasted Wilds",
+    "img": "https://media.miniaturemarket.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/r/m/rma207.jpg",
+    "genre": "Данжн кроулер, кооператив, соло",
+    "player": "1-6",
+    "time": "45-90",
+    "id": 1731442090314,
+    "author": "Майк Гнейд",
+    "publisher": "Gaga games",
+    "descr": "Новые сценарии, монстры и выживание, а также новая механика взаимодействия с группой.",
+    "rating": {
+      "gameplay": "0",
+      "visually": "0",
+      "impression": "0"
+    },
+    "allRating": "0",
+    "status": false,
+    "base": true,
+    "pnp": true
+  },
+  {
+    "name": "Максимум апокалипсис: Готические ужасы",
+    "img": "https://main-cdn.sbermegamarket.ru/hlr-system/-11/293/185/053/610/55/600009650645b0.jpg",
+    "genre": "Данжн кроулер, кооператив, соло",
+    "player": "1-6",
+    "time": "45-90",
+    "id": 1731441454410,
+    "author": "Майк Гнейд",
+    "publisher": "Gaga games",
+    "descr": "3 новых колоды монстров: Ёкаи, Вампиры и Ктулху. Колоды приносят в игру дополнительные механики и нюансы – например, смену дня и ночи.",
+    "rating": {
+      "gameplay": "0",
+      "visually": "10",
+      "impression": "0"
+    },
+    "allRating": "3",
+    "status": false,
+    "base": true
+  },
+  {
+    "name": "Максимум апокалипсис: Жукогеддон",
+    "img": "https://shop.meeplehouse.ru/upload/iblock/b7f/j1rx5z6rx65mfxziqp8xysqzvfq2ua59/ff8bed3bd58c6c429623d88e77c06ebd.jpg",
+    "genre": "Данжн кроулер, кооператив, соло",
+    "player": "1-6",
+    "time": "45-90",
+    "id": 1731441773282,
+    "author": "Майк Гнейд",
+    "publisher": "Gaga games",
+    "descr": "Новый типом монстров: огромные насекомые! Стоит раздавить одного, как другие сразу набросятся на вас!",
+    "rating": {
+      "gameplay": "0",
+      "visually": "0",
+      "impression": "0"
+    },
+    "allRating": "0",
+    "status": false,
+    "base": false
+  },
+  {
+    "name": "Максимум апокалипсис: Кайдзю атакуют!",
+    "img": "https://veselosidim.ru/images/thumbnails/1223/1000/detailed/25/Максимум_апокалипсис._Кайдзю_атакуют_.jpg",
+    "genre": "Данжн кроулер, кооператив, соло",
+    "player": "1-6",
+    "time": "45-90",
+    "id": 1731441696514,
+    "author": "Майк Гнейд",
+    "publisher": "Gaga games",
+    "descr": "Новая колода монстров Кайдзю и два персонажа: Рейнджер и Учёный. ",
+    "rating": {
+      "gameplay": "5",
+      "visually": "7",
+      "impression": "7"
+    },
+    "allRating": "6",
+    "status": true,
+    "base": false
+  },
+  {
+    "name": "Максимум апокалипсис: Юрский период",
+    "img": "https://shop.meeplehouse.ru/upload/iblock/cb4/1n1tkk9mors7hjrjiek0qzdtik0bihsb/0054c5f2db8004e2e0711e852b0eb467.jpg",
+    "genre": "Данжн кроулер, кооператив, соло",
+    "player": "1-6",
+    "time": "45-90",
+    "id": 1731441901773,
+    "author": "Майк Гнейд",
+    "publisher": "Gaga games",
+    "descr": "Новая колода монстров Динозавров и персонаж Археолог.",
+    "rating": {
+      "gameplay": "0",
+      "visually": "0",
+      "impression": "0"
+    },
+    "allRating": "0",
+    "status": false,
+    "base": false
+  },
+  {
+    "name": "Париж: Город огней",
+    "img": "https://avatars.mds.yandex.net/i?id=5b652d4617e25f28ef65db42b0ac449b_l-5219738-images-thumbs&n=13",
+    "genre": "Дуэль, стратегия",
+    "player": "2",
+    "time": "30",
+    "id": 1731694811761,
+    "author": "Хосе Антонио Абаскаль",
+    "publisher": "Gaga games",
+    "descr": "Вам предстоит застраивать город различными зданиями, освещая их, а также улицы и мостовые фонарями. Вас ждёт нешуточная борьба за каждый миллиметр пространства, ведь каждый построенный дом или же выполненное действие могут самым что ни на есть драматичным образом повлиять на замыслы соперника.",
+    "rating": {
+      "gameplay": "9",
+      "visually": "10",
+      "impression": "10"
+    },
+    "allRating": "10",
+    "status": true,
+    "base": true,
+    "pnp": false
+  },
+  {
+    "name": "Париж: Эйфель",
+    "img": "https://ravta.ru/upload/iblock/93e/93e35e4eab806c498bd98597d1769195.jpg",
+    "genre": "Дуэль, стратегия",
+    "player": "2",
+    "time": "30",
+    "id": 1731694987236,
+    "author": "Хосе Антонио Абаскаль",
+    "publisher": "Gaga games",
+    "descr": "В этом дополнении вы сможете построить такие известные места, как Лувр, Луксорский собор, Триумфальную арка и саму Эйфелеву башню. ",
+    "rating": {
+      "gameplay": "9",
+      "visually": "10",
+      "impression": "10"
+    },
+    "allRating": "10",
+    "status": true,
+    "base": false,
+    "pnp": false
+  },
+  {
+    "name": "Руины острова Арнак",
+    "img": "https://goodork.ru/pictures/product/big/122470_big.jpg",
+    "genre": "Евро, соло, дуэль, колодострой",
+    "player": "1-4",
+    "time": "30+",
+    "id": 1731698961845,
+    "author": "Михаэла Стахова, Михал Стах",
+    "publisher": "Gaga games",
+    "descr": "Возглавьте археологическую экспедицию, отправленную на необитаемый остров Арнак. Там найдены следы древней могущественной цивилизации. Вам предстоит исследовать загадочный остров, откопать таинственные артефакты, найти путь к затерянному среди джунглей храму и, конечно же, попасть не в одно приключение.",
+    "rating": {
+      "gameplay": "10",
+      "visually": "10",
+      "impression": "10"
+    },
+    "allRating": "10",
+    "status": true,
+    "base": true,
+    "pnp": false
+  },
+  {
+    "name": "Руины острова Арнак: Лидеры экспедиции",
+    "img": "https://gaga.ru/gaga/files/images/w1380/6334/1.jpg",
+    "genre": "Евро, соло, дуэль, колодострой",
+    "player": "1-4",
+    "time": "30+",
+    "id": 1731699195598,
+    "author": "Михаэла Стахова, Михал Стах",
+    "publisher": "Gaga games",
+    "descr": "Добавляет 6 новых лидеров, под чутким руководством которых вы сможете докопаться до всех тайн острова: Капитан, Профессор, Исследовательница-одиночка, Баронесса, Сокольничая, Мистик.",
+    "rating": {
+      "gameplay": "0",
+      "visually": "0",
+      "impression": "0"
+    },
+    "allRating": "0",
+    "status": false,
+    "base": false,
+    "pnp": false
+  },
+  {
+    "name": "Руины острова Арнак: Потерянная экспедиция",
+    "img": "https://cdn.4stand.com/huge/0b/a1/0ba1501922cbe60cca7d30a2dbe2e2bd78fcf469.jpg",
+    "genre": "Евро, соло, дуэль, колодострой",
+    "player": "1-4",
+    "time": "30+",
+    "id": 1731699103392,
+    "author": "Михаэла Стахова, Михал Стах",
+    "publisher": "Gaga games",
+    "descr": "Новые треки исследований, новые лидеры экспедиций, новые помощники, предметы, стражи и артефакты.",
+    "rating": {
+      "gameplay": "0",
+      "visually": "0",
+      "impression": "0"
+    },
+    "allRating": "0",
+    "status": false,
+    "base": false,
+    "pnp": false
+  },
+  {
+    "name": "Сундук Войны",
+    "img": "https://sun9-77.userapi.com/s/v1/ig2/LEWBJKRjiDkVDCKgABT4LRxeBHJzvM9LzkzrCaOHcGVjxDi3UTZVVnbtCQ6s9eWjh72BdnxQfatN149FBWqDwHUR.jpg?quality=95&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360,480x480,540x540,640x640,720x720&from=bu&u=ZR8vflPv8yfPDjn-osmEVGmpDuBdyf3U22M79C2v5JQ&cs=604x604",
+    "genre": "Абстракт, стратегия, дуэль",
+    "player": "2-4",
+    "time": "30-60",
+    "id": 1731693532901,
+    "author": "Тревор Бенджамин, Дэвид Томпсон",
+    "publisher": "Crowd games",
+    "descr": "Это глубокая абстрактная стратегия, которая станет достойным испытанием для вашего тактического мышления. Вам предстоит возглавить армию и взять поле боя под контроль, заняв своими войсками стратегически важные позиции и не допустив на них войска противника. ",
+    "rating": {
+      "gameplay": "0",
+      "visually": "0",
+      "impression": "0"
+    },
+    "allRating": "0",
+    "status": false,
+    "base": true,
+    "pnp": false
+  },
+  {
+    "name": "Сундук Войны: Дворянство",
+    "img": "https://avatars.mds.yandex.net/i?id=a9fb2ccf2386b815727d70f272dea7f0b488e926-10115068-images-thumbs&n=13",
+    "genre": "Абстракт, стратегия, дуэль",
+    "player": "2-4",
+    "time": "30-60",
+    "id": 1731694011963,
+    "author": "Тревор Бенджамин, Дэвид Томпсон",
+    "publisher": "Crowd games",
+    "descr": "Новые отряды и механики: теперь вы можете отправлять в бой элитные отряды дворян, а также пресекать смуту в их рядах при помощи королевских указов и увещеваний епископов. ",
+    "rating": {
+      "gameplay": "0",
+      "visually": "0",
+      "impression": "0"
+    },
+    "allRating": "0",
+    "status": false,
+    "base": false,
+    "pnp": false
+  },
+  {
+    "name": "Сундук Войны: Осада",
+    "img": "https://hobbygames.kz/image/data/CrowD_Games/Sunduk_Voyny/Osada/HG/Sunduk_Voini_Osada.jpg",
+    "genre": "Абстракт, стратегия, дуэль",
+    "player": "2-4",
+    "time": "30-60",
+    "id": 1731693798877,
+    "author": "Тревор Бенджамин, Дэвид Томпсон",
+    "publisher": "Crowd games",
+    "descr": "Новые отряды и механики: теперь вы можете возводить укрепления на поле боя и прятать в них свои войска, а также нанимать грандиозные осадные машины, чтобы сокрушить вражеские стены и отряды.",
+    "rating": {
+      "gameplay": "0",
+      "visually": "0",
+      "impression": "0"
+    },
+    "allRating": "0",
+    "status": false,
+    "base": false,
+    "pnp": false
+  },
+  {
+    "name": "Сундук Войны: Сумерки",
+    "img": "https://images.crowdgames.ru/images/products/1/2627/914475587/P1150206.png",
+    "genre": "Абстракт, стратегия, дуэль",
+    "player": "2-4",
+    "time": "30-60",
+    "id": 1731694096849,
+    "author": "Тревор Бенджамин, Дэвид Томпсон",
+    "publisher": "Crowd games",
+    "descr": "Привносит в игру новый вид тактики и 4 типа отрядов. Теперь вы сможете использовать такие хитрые приёмы, как засорение мешка противника и отравление его воинов. Добавьте остроты в ваши партии: путайте вражеские планы, избегайте пыл открытого сражения и действуйте в сумерках, скрывающих ваши самые хитрые замыслы!",
+    "rating": {
+      "gameplay": "0",
+      "visually": "0",
+      "impression": "0"
+    },
+    "allRating": "0",
+    "status": false,
+    "base": false,
+    "pnp": false
+  },
+  {
+    "name": "Чудеса света",
+    "img": "https://funmill.ru/upload/delight.webpconverter/upload/resize_cache/iblock/935/t2tpv740abcb5bz0ba41wefsq0jiupe5/1000_1000_181f6576abe2ff66c620de4c1169f126d/1.jpg.webp?170490991853394",
+    "genre": "Евро, соло, стратегия",
+    "player": "1-5",
+    "time": "50-70",
+    "id": 1731443558661,
+    "author": "Zé Mendes",
+    "publisher": "Lavka games",
+    "descr": "Ваша задача – возвести в своём городе как можно больше красивых, но при этом эффективных монументов, которые принесут вам множество победных очков. Но экономика и градостроительство – вещь непростая, поэтому не забывайте о грамотном распределении ресурсов. Стройте прибыльные городские объекты, прокладывайте дороги, расширяйте границы своего владения и зарабатывайте золото.",
+    "rating": {
+      "gameplay": "10",
+      "visually": "10",
+      "impression": "10"
+    },
+    "allRating": "10",
+    "status": true,
+    "base": true
+  },
+  {
+    "name": "Чужая планета",
+    "img": "https://cdn1.ozone.ru/s3/multimedia-5/6699484913.jpg",
+    "genre": "Один против всех",
+    "player": "2-7",
+    "time": "30-45",
+    "id": 1731520739494,
+    "author": "Гислен Массон",
+    "publisher": "Gaga games",
+    "descr": "Классический триллер об ужасе глубокого космоса, облаченный в мантию асимметричной карточной игры. Возьмите на себя роль Существа, которое пытается ассимилировать застрявших на планете ученых, или же путешественника, что пытается выжить и дождаться прибытия спасательной капсулы.",
+    "rating": {
+      "gameplay": "9",
+      "visually": "9",
+      "impression": "9"
+    },
+    "allRating": "9",
+    "status": true,
+    "base": true,
+    "pnp": false
+  },
+  {
+    "name": "Чужая планета: Новые горизонты",
+    "img": "https://avatars.mds.yandex.net/i?id=a889e815ba1d5deee824145124243625c75997a0-8354186-images-thumbs&n=13",
+    "genre": "Один против всех",
+    "player": "2-7",
+    "time": "30-45",
+    "id": 1731520851582,
+    "author": "Гислен Массон",
+    "publisher": "Gaga games",
+    "descr": "Новые локации представляют собой запутанные лабиринты, из которых стало ещё сложнее выбраться.",
+    "rating": {
+      "gameplay": "0",
+      "visually": "0",
+      "impression": "0"
+    },
+    "allRating": "0",
+    "status": false,
+    "base": false,
+    "pnp": false
+  },
+  {
+    "name": "Шепот за стеной",
+    "img": "https://static.insales-cdn.com/r/8lDM2HppxRk/rs:fit:1000:1000:1/plain/images/products/1/5274/833549466/Base.png@png",
+    "genre": "Один против всех",
+    "player": "2-4",
+    "time": "30-45",
+    "id": 1731411645554,
+    "author": "Джеффри CCH",
+    "publisher": "Низа Гамс",
+    "descr": "Это кооперативная хоррор-игра, цель которой – выжить. Вы сможете сыграть как за жертву, которая должна обыскать логово убийцы и придумать, как из него выбраться, так и за самого убийцу, выслеживающего своих целей и использующего разнообразные ловушки, расставленные по дому. ",
+    "rating": {
+      "gameplay": "10",
+      "visually": "10",
+      "impression": "10"
+    },
+    "allRating": "10",
+    "status": true,
+    "base": true,
+    "pnp": false
+  },
+  {
+    "name": "Шепот за стеной: Безжизненные бессмертные",
+    "img": "https://nizagams.ru/wp-content/uploads/2023/06/Exp3.png",
+    "genre": "Один против всех",
+    "player": "2-4",
+    "time": "30-45",
+    "id": 1731426049474,
+    "author": "Джеффри CCH",
+    "publisher": "Низа Гамс",
+    "descr": "Мы отправляемся в замок, где Профессор столкнется с Каменными статуями.",
+    "rating": {
+      "gameplay": "0",
+      "visually": "0",
+      "impression": "0"
+    },
+    "allRating": "0",
+    "status": false,
+    "base": false
+  },
+  {
+    "name": "Шепот за стеной: Животный инстинкт",
+    "img": "https://static.insales-cdn.com/images/products/1/7253/833551445/Exp1.png",
+    "genre": "Один против всех",
+    "player": "2-4",
+    "time": "30-45",
+    "id": 1731425674430,
+    "author": "Джеффри CCH",
+    "publisher": "Низа Гамс",
+    "descr": "Нас переносит в охотничий домик, где нас уже поджидает Оборотень и Охотница.",
+    "rating": {
+      "gameplay": "0",
+      "visually": "10",
+      "impression": "0"
+    },
+    "allRating": "3",
+    "status": false,
+    "base": false
+  },
+  {
+    "name": "Шепот за стеной: Угроза извне",
+    "img": "https://nizagams.ru/wp-content/uploads/2023/06/Exp2.png",
+    "genre": "Один против всех",
+    "player": "2-4",
+    "time": "30-45",
+    "id": 1731425974551,
+    "author": "Джеффри CCH",
+    "publisher": "Низа Гамс",
+    "descr": "В лаборатории что-то произошло и два существа: Неопознанное и Пожиратель решили поохотиться на нас.",
+    "rating": {
+      "gameplay": "9",
+      "visually": "10",
+      "impression": "10"
+    },
+    "allRating": "10",
+    "status": true,
+    "base": false
+  }
+]
