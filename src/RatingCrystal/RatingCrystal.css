@@ -3,19 +3,23 @@
   height: 34px;
 }
 
-.stone {
+.rating__stone {
   padding: 0;
   height: 100%;
   width: 23px;
-  background: url('../assets/rating.svg') no-repeat center / contain;
+  background: url("../assets/rating.svg") no-repeat center / contain;
   appearance: none;
   cursor: pointer;
-  transition: background .18s ease-in-out;
+  transition: background 0.18s ease-in-out;
 }
 
-.stone:checked {
+.rating__stone:checked {
   width: 35px;
-  background: url('../assets/ratingColor.svg') no-repeat center / contain;
+  background: url("../assets/ratingColor.svg") no-repeat center / contain;
+}
+
+.rating__stone:focus-visible {
+  filter: drop-shadow(0px 0px 6px var(--silver));
 }
 
 @media (max-width: 640px) {
@@ -24,12 +28,12 @@
     height: 28px;
   }
 
-  .stone {
+  .rating__stone {
     height: 80%;
     width: 16px;
   }
 
-  .stone:checked {
+  .rating__stone:checked {
     height: 100%;
     width: 26px;
   }

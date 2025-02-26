@@ -1,7 +1,7 @@
 import SearchBox from '../SearchBox/SearchBox.jsx'
 import "./SearchField.css"
 import { observer } from "mobx-react"
-import StorageCollection from "../Storage/StorageCollection"
+import StorageCollection from "../Storage/StorageCollection.jsx"
 import StoragePartInventory from '../Storage/StoragePartInventory.jsx'
 
 const SearchField = () => {
@@ -45,7 +45,8 @@ const SearchField = () => {
       />
 
       <label className="lable search__lable">
-        <input className="input search__input" type="text" placeholder="Название" name="Title" onChange={(e) => { search(e.target.value) }} />
+        <input className="input search__input" type="text" name="Title" placeholder="Название"
+          defaultValue={StorageCollection.name ?? StorageCollection.name} onChange={(e) => { search(e.target.value) }} />
         <span className="descr search__span">Название</span>
       </label>
     </form>

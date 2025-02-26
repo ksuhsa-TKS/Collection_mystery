@@ -1,40 +1,19 @@
-import notImg from '../assets/notImg.svg'
-import Gameplay from '../assets/gameplay.svg?react'
-import Visually from '../assets/visually.svg?react'
-import Impression from '../assets/impression.svg?react'
-import Time from '../assets/time.svg?react'
-import Player from '../assets/player.svg?react'
-import Publisher from '../assets/publisher.svg?react'
-import Author from '../assets/author.svg?react'
-import Edit from '../assets/edit.svg?react'
-import Delete from '../assets/delete.svg?react'
+import { Gameplay, Visually, Impression, Time, Player, Publisher, Author, Edit, Delete } from '../assets/mySVG'
+import ImageCard from '../ui/imageCard'
+import btnStatus from '../ui/btnGame'
 import "./MysteryCard.css"
 import { observer } from "mobx-react"
+import { Link } from 'react-router'
 import StorageModal from "../Storage/StorageModal"
 import StorageCollection from "../Storage/StorageCollection"
 
 const MysteryCard = ({ inventory }) => {
-  const btnStatus = () => {
-    switch (inventory.status) {
-      case true:
-        return (
-          <button className="btn card__btn" type="button" onClick={() => StorageModal.updateStatusGameInventory(inventory.id, false)} >
-            Играли
-          </button>
-        )
-      case false:
-        return (
-          <button className="btn card__btn card__btn--color" type="button" onClick={() => StorageModal.updateStatusGameInventory(inventory.id, true)} >
-            Не играли
-          </button>
-        )
-    }
-  }
-
   return (
     <div className="flex card">
       <span className="card__span">
-        <img className="img card__img" src={inventory.img.length < 10 ? notImg : inventory.img} alt={inventory.name} />
+        <Link to={`/${inventory.id}`} className='card__link'>
+          <ImageCard classImg='card__img' inventory={inventory} />
+        </Link>
 
         <span className="flex descr card__span card__span--min">
           <span className="flex descr card__icon card__icon--rating">{inventory.allRating}</span>
@@ -48,12 +27,13 @@ const MysteryCard = ({ inventory }) => {
           {!inventory.base && <span className="flex descr card__icon card__icon--dop">DOP</span>}
           {inventory.pnp && <span className="flex descr card__icon card__icon--pnp">PNP</span>}
         </span>
-
       </span>
 
       <div className="flex card__block">
-
-        <p className="title">{inventory.name}</p>
+        <Link to={`/${inventory.id}`} className="title card__title">
+          {inventory.name}
+          {inventory.sequel && `: ${inventory.sequel}`}
+        </Link>
         <p className="descr">{inventory.genre}</p>
 
         <span className="flex card__wrap card__wrap--descr">
@@ -66,18 +46,19 @@ const MysteryCard = ({ inventory }) => {
         <p className="descr card__descr">{inventory.descr}</p>
 
         <span className="flex card__wrap card__wrap--btn">
-          {btnStatus()}
+          {btnStatus(inventory)}
 
-          <button className="card__btn card__btn--svg" onClick={() => { StorageModal.getInventory(inventory.id, 'edit') }}><Edit className='svg' /></button>
+          <button className="card__btn card__btn--svg" onClick={() => { StorageModal.getInventory(inventory.id, 'edit') }}>
+            <Edit className='svg' />
+          </button>
 
           <button className="card__btn card__btn--svg" onClick={() => {
-            StorageCollection.updateValueWindow('deleteInventory')
-            StorageCollection.updateWindowWarning(inventory.id)
+            StorageCollection.updateValueWindow('deleteInventory');
+            StorageCollection.updateWindowWarning(inventory.id);
           }}>
             <Delete className='svg' />
           </button>
         </span>
-
       </div>
     </div>
   )

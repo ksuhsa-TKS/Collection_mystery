@@ -1,4 +1,4 @@
-import { action, computed, makeObservable, observable, runInAction } from 'mobx'
+import { makeAutoObservable, runInAction } from 'mobx'
 import StoragePartInventory from './StoragePartInventory'
 import StorageCounter from './StorageCounter'
 import prod from '../../collection.json'
@@ -20,57 +20,7 @@ class StorageCollection {
   long = 12
   pageLong = this.long
 
-  constructor() {
-    makeObservable(this, {
-      collection: observable,
-      copyCollection: observable,
-      windowWarning: observable,
-      valueWarning: observable,
-      idInventory: observable,
-      name: observable,
-      genreList: observable,
-      publisher: observable,
-      authorList: observable,
-      sortNameRating: observable,
-      player: observable,
-      status: observable,
-      pnp: observable,
-      pageLong: observable,
-
-      requestCollection: computed,
-      searchNameCollection: computed,
-      searchGenreCollection: computed,
-      searchPublisherCollection: computed,
-      searchAuthorCollection: computed,
-      sortSortNameRating: computed,
-      sortPlayerCollection: computed,
-      sortStatusGameCollection: computed,
-      sortPnpCollection: computed,
-      resetGenreList: computed,
-      resetPublisher: computed,
-      resetAuthorList: computed,
-      addPageLong: computed,
-      deleteInventoryCollection: computed,
-      deleteCollection: computed,
-
-      saveCollection: action.bound,
-      getCollection: action.bound,
-      addCollection: action.bound,
-      updateCollection: action.bound,
-      updateStatusCollection: action.bound,
-      updateWindowWarning: action.bound,
-      updateValueWindow: action.bound,
-      addName: action.bound,
-      addGenreList: action.bound,
-      addPublisher: action.bound,
-      addAuthorList: action.bound,
-      addSortNameRating: action.bound,
-      addPlayer: action.bound,
-      addStatusGame: action.bound,
-      addPnp: action.bound,
-      checkFilling: action.bound,
-    })
-  }
+  constructor() { makeAutoObservable(this) }
 
   get requestCollection() {
     let db = localStorage.getItem('collection')
@@ -162,7 +112,10 @@ class StorageCollection {
   addName = (value) => { this.name = value }
   get searchNameCollection() {
     if (this.name !== '') {
-      runInAction(() => { this.copyCollection = this.copyCollection.filter(el => el.name.toLowerCase().includes(this.name.toLowerCase())) })
+      runInAction(() => {
+        this.copyCollection = this.copyCollection.filter(el => el.name.toLowerCase().includes(this.name.toLowerCase()) ||
+          (el.sequel && el.sequel.toLowerCase().includes(this.name.toLowerCase())) && el)
+      })
     }
   }
 

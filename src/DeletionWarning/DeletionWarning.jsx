@@ -1,4 +1,4 @@
-import Closed from '../assets/closed.svg?react'
+import { Closed } from '../assets/mySVG'
 import './DeletionWarning.css'
 import { observer } from "mobx-react"
 import StorageCollection from "../Storage/StorageCollection"

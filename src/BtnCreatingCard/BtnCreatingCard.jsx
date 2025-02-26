@@ -1,5 +1,5 @@
+import { Create } from "../assets/mySVG";
 import StorageModal from "../Storage/StorageModal";
-import Create from '../assets/create.svg?react'
 import "./BtnCreatingCard.css"
 import { observer } from "mobx-react";
 

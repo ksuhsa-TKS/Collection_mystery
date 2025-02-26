@@ -1,54 +1,33 @@
-import { action, computed, makeObservable, observable, runInAction, values } from 'mobx'
+import { action, makeAutoObservable, makeObservable, observable } from 'mobx'
 import StorageCollection from './StorageCollection.jsx'
+import { useTextConverter } from '../hooks/useTextConverter.js'
 
 class StorageModal {
   windowPosition = 'closed'
   inventory = ''
-  author = ''
+  sequel = ''
+  base = true
+  pnp = false
+  img = ''
   publisher = ''
+  author = ''
   descr = ''
   ratingGameplay = '0'
   ratingVisually = '0'
   ratingImpression = '0'
   statusGame = false
-  base = true
-  pnp = false
   statusWindow = 'create' | 'edit'
 
-  constructor() {
-    makeObservable(this, {
-      windowPosition: observable,
-      inventory: observable,
-      author: observable,
-      publisher: observable,
-      descr: observable,
-      ratingGameplay: observable,
-      ratingVisually: observable,
-      ratingImpression: observable,
-      statusGame: observable,
-      statusWindow: observable,
-      base: observable,
-      pnp: observable,
-
-      addPosition: action.bound,
-      getInventory: action.bound,
-      addAuthor: action.bound,
-      addPublisher: action.bound,
-      addDescr: action.bound,
-      addRating: action.bound,
-      addStatusGame: action.bound,
-      addBase: action.bound,
-      addPnp: action.bound,
-      addInventory: action.bound,
-      updateInventory: action.bound,
-      updateStatusGameInventory: action.bound,
-    })
-  }
+  constructor() { makeAutoObservable(this) }
 
   addPosition = (status) => {
     this.statusWindow = status
     this.windowPosition === 'closed' ? this.windowPosition = 'open' : this.windowPosition = 'closed'
 
+    this.sequel = ''
+    this.base = true
+    this.pnp = false
+    this.img = ''
     this.author = ''
     this.publisher = ''
     this.descr = ''
@@ -56,15 +35,26 @@ class StorageModal {
     this.ratingVisually = '0'
     this.ratingImpression = '0'
     this.statusGame = false
-    this.base = true
-    this.pnp = false
   }
 
-  getInventory = (id, status) => { this.inventory = StorageCollection.collection.find(e => e.id === id); this.addPosition(status) }
+  getInventory = (id, status) => {
+    this.inventory = StorageCollection.collection.find(e => e.id === id)
+    this.addPosition(status)
+  }
 
-  addAuthor = (value) => { this.author = value }
+  addSequel = (value) => { this.sequel = value }
+
+  updateBase = (value) => { this.base = value }
+  addBase = () => { this.base = !this.base }
+
+  updatePnp = (value) => { this.pnp = value }
+  addPnp = () => { this.pnp = !this.pnp }
+
+  addImg = (value) => { this.img = value }
 
   addPublisher = (value) => { this.publisher = value }
+
+  addAuthor = (value) => { this.author = value }
 
   addDescr = (value) => { this.descr = value }
 
@@ -76,18 +66,19 @@ class StorageModal {
 
   addStatusGame = (value) => { this.statusGame = value }
 
-  updateBase = (value) => { this.base = value }
-  addBase = () => { this.base = !this.base }
-
-  updatePnp = (value) => { this.pnp = value }
-  addPnp = () => { this.pnp = !this.pnp }
-
-  addInventory = (data) => {
+  addInventory = ({ name, player, time, genre }) => {
     const inventory = {
-      ...data,
       "id": Date.now(),
-      "author": this.author,
-      "publisher": this.publisher,
+      "name": name,
+      "sequel": this.sequel,
+      "player": player,
+      "time": time,
+      "base": this.base,
+      "pnp": this.pnp,
+      "genre": useTextConverter(genre),
+      "img": this.img,
+      "publisher": useTextConverter(this.publisher, 'name'),
+      "author": useTextConverter(this.author, 'name'),
       "descr": this.descr,
       "rating": {
         "gameplay": this.ratingGameplay,
@@ -96,19 +87,25 @@ class StorageModal {
       },
       "allRating": String(Math.round((Number(this.ratingGameplay) + Number(this.ratingVisually) + Number(this.ratingImpression)) / 3)),
       "status": this.statusGame,
-      "base": this.base,
-      "pnp": this.pnp
     }
     StorageCollection.addCollection(inventory)
     this.addPosition()
   }
 
-  updateInventory = (id, data) => {
+  updateInventory = (id, { name, player, time, genre }) => {
+    console.log(this.author)
     const inventory = {
-      ...data,
       "id": id,
-      "author": this.author,
-      "publisher": this.publisher,
+      "name": name,
+      "sequel": this.sequel,
+      "player": player,
+      "time": time,
+      "base": this.base,
+      "pnp": this.pnp,
+      "genre": useTextConverter(genre),
+      "img": this.img,
+      "publisher": useTextConverter(this.publisher, 'name'),
+      "author": useTextConverter(this.author, 'name'),
       "descr": this.descr,
       "rating": {
         "gameplay": this.ratingGameplay,
@@ -117,8 +114,6 @@ class StorageModal {
       },
       "allRating": String(Math.round((Number(this.ratingGameplay) + Number(this.ratingVisually) + Number(this.ratingImpression)) / 3)),
       "status": this.statusGame,
-      "base": this.base,
-      "pnp": this.pnp
     }
     StorageCollection.updateCollection(id, inventory)
     this.addPosition()

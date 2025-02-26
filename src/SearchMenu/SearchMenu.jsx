@@ -1,4 +1,4 @@
-import SearchField from '../SearchFields/SearchField.jsx'
+import SearchField from '../SearchField/SearchField.jsx'
 import SearchButton from '../SearchButton/SearchButton.jsx'
 import SearchList from '../SearchList/SearchList.jsx'
 import './SearchMenu.css'

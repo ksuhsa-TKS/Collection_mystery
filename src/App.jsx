@@ -1,10 +1,9 @@
-import { lazy } from 'react'
-import { Suspense } from 'react'
 import './App.css'
-import Loading from './assets/loading.svg?react'
+import { Loading } from './assets/mySVG.js'
 import StorageCollection from './Storage/StorageCollection.jsx'
 import StorageCounter from './Storage/StorageCounter.jsx'
 import StoragePartInventory from './Storage/StoragePartInventory.jsx'
+import { lazy, Suspense } from 'react'
 
 const LazyHeader = lazy(() => import('./Header/Header.jsx'))
 const LazyMain = lazy(() => import('./Main/Main.jsx'))

@@ -1,10 +1,9 @@
-import Counter from '../assets/counter.svg?react'
-import CounterOpen from '../assets/counterOpen.svg?react'
+import { Counter, CounterOpen } from '../assets/mySVG'
 import './CounterMystery.css'
-import { useWidthDesktop } from '../hooks/useWidthDesktop'
-import { observer } from 'mobx-react'
-import StorageCounter from '../Storage/StorageCounter'
 import { useState } from 'react'
+import { observer } from 'mobx-react'
+import { useWidthDesktop } from '../hooks/useWidthDesktop'
+import StorageCounter from '../Storage/StorageCounter'
 
 const CounterMystery = () => {
   const { screenWidth } = useWidthDesktop()

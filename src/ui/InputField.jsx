@@ -1,17 +1,20 @@
 const InputField = ({
   valueLable,
+  placeholder,
   errorValue,
   errorElement,
   type = 'text',
   valueInput,
-  classLable = '',
 }) => {
   return (
-    <label className={`flex lable form__lable ${classLable}`}>
-      <span className="descr form__descr">{valueLable}:</span>
-      <input className='input' type={type} defaultValue={valueInput} {...errorValue} autoComplete="off"
-        autoFocus={valueLable === 'Название' && true} />
-      {errorElement}
+    <label className='flex lable form__lable'>
+      {valueLable}:
+      <span className="flex form__wrap">
+        <input className='input form__input form__input--required' type={type} autoComplete="off"
+          defaultValue={valueInput} placeholder={!errorElement && placeholder}
+          autoFocus={valueLable === 'Название' && true} {...errorValue} />
+        {errorElement}
+      </span>
     </label>
   )
 }

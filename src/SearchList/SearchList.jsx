@@ -1,8 +1,5 @@
+import { Plus, Publisher, Player, Author } from '../assets/mySVG.js'
 import SearchBox from '../SearchBox/SearchBox.jsx'
-import Plus from '../assets/plus.svg?react'
-import Publisher from '../assets/publisher.svg?react'
-import Player from '../assets/player.svg?react'
-import Author from '../assets/author.svg?react'
 import './SearchList.css'
 import { useState } from 'react'
 import { observer } from "mobx-react"
@@ -50,50 +47,50 @@ const SearchList = () => {
   switch (window) {
     case 'open':
       return (<>
-          <button className="btn search-list__btn search-list__btn--closed" onClick={() => { setWindow('closed') }}>
-            <Plus className='svg search-list__svg' />
-          </button>
+        <button className="btn search-list__btn search-list__btn--closed" onClick={() => { setWindow('closed') }}>
+          <Plus className='svg search-list__svg' />
+        </button>
 
-          <SearchBox collection={StoragePartInventory.playerList}
-            windowCheck={StoragePartInventory.windowPlayer}
-            windowUpdate={StoragePartInventory.updateWindow}
-            windowValue='player'
-            search={searchPlayer}
-            seacrhElement={StorageCollection.player}
-            reset={resetPlayer}
-            nameCollection='Игроки'
-            Icon={Player}
-            styleWindow='player'
-            styleInput='player__input'
-          />
+        <SearchBox collection={StoragePartInventory.playerList}
+          windowCheck={StoragePartInventory.windowPlayer}
+          windowUpdate={StoragePartInventory.updateWindow}
+          windowValue='player'
+          search={searchPlayer}
+          seacrhElement={StorageCollection.player}
+          reset={resetPlayer}
+          nameCollection='Игроки'
+          Icon={Player}
+          styleWindow='player'
+          styleInput='player__input'
+        />
 
-          <SearchBox collection={StoragePartInventory.publisherList}
-            windowCheck={StoragePartInventory.windowPublisher}
-            windowUpdate={StoragePartInventory.updateWindow}
-            windowValue='publisher'
-            search={searchPublisher}
-            seacrhElement={StorageCollection.publisher}
-            reset={resetPublisher}
-            update={StoragePartInventory.updateAllPublisherList}
-            nameCollection='Издатлели'
-            Icon={Publisher}
-            styleWindow='publisher'
-            styleInput='publisher__input'
-          />
+        <SearchBox collection={StoragePartInventory.publisherList}
+          windowCheck={StoragePartInventory.windowPublisher}
+          windowUpdate={StoragePartInventory.updateWindow}
+          windowValue='publisher'
+          search={searchPublisher}
+          seacrhElement={StorageCollection.publisher}
+          reset={resetPublisher}
+          update={StoragePartInventory.updateAllPublisherList}
+          nameCollection='Издатлели'
+          Icon={Publisher}
+          styleWindow='publisher'
+          styleInput='publisher__input'
+        />
 
-          <SearchBox collection={StoragePartInventory.authorList}
-            windowCheck={StoragePartInventory.windowAuthor}
-            windowUpdate={StoragePartInventory.updateWindow}
-            windowValue='author'
-            search={searchAuthor}
-            seacrhElement={StorageCollection.authorList}
-            reset={resetAuthor}
-            update={StoragePartInventory.updateAllAuthorList}
-            nameCollection='Авторы'
-            Icon={Author}
-            styleWindow='author'
-            styleInput='author__input'
-          />
+        <SearchBox collection={StoragePartInventory.authorList}
+          windowCheck={StoragePartInventory.windowAuthor}
+          windowUpdate={StoragePartInventory.updateWindow}
+          windowValue='author'
+          search={searchAuthor}
+          seacrhElement={StorageCollection.authorList}
+          reset={resetAuthor}
+          update={StoragePartInventory.updateAllAuthorList}
+          nameCollection='Авторы'
+          Icon={Author}
+          styleWindow='author'
+          styleInput='author__input'
+        />
       </>)
     case 'closed':
       return (

@@ -1,5 +1,4 @@
-import Telegram from '../assets/telegram.svg?react'
-import Mail from '../assets/mail.svg?react'
+import { Telegram, Mail } from '../assets/mySVG'
 import './Footer.css'
 import StorageCollection from '../Storage/StorageCollection'
 

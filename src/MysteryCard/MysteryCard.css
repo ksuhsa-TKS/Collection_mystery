@@ -24,16 +24,25 @@
   background: initial;
 }
 
+.card__link {
+  display: inline-block;
+}
+
+.card__link:hover .card__img {
+  outline: 1px var(--gold) solid;
+  filter: drop-shadow(0px 0px 6px var(--gold));
+}
+
+.card__link:focus-visible .card__img {
+  outline: 1px var(--blue) solid;
+  filter: drop-shadow(0px 0px 6px var(--blue));
+}
+
 .card__img {
   position: relative;
   width: clamp(180px, 26vw, 200px);
   height: clamp(180px, 26vw, 200px);
-  transition: transform .35s ease-in-out;
-}
-
-.card__img:hover {
-  z-index: 1;
-  transform: scale(1.6);
+  transition: outline 0.2s ease-in-out, filter 0.2s ease-in-out;
 }
 
 .card__table {
@@ -48,7 +57,7 @@
   width: max-content;
   color: var(--gold);
   background-color: var(--black);
-  transition: opacity .2s ease-in-out;
+  transition: opacity 0.2s ease-in-out;
   opacity: 0;
 }
 
@@ -72,7 +81,7 @@
   cursor: pointer;
 }
 
-.card__icon--rating:hover+.card__table {
+.card__icon--rating:hover + .card__table {
   opacity: 1;
 }
 
@@ -103,6 +112,18 @@
 .card__wrap--descr {
   max-width: 56vw;
   white-space: pre-wrap;
+}
+
+.card__title {
+  transition: color 0.2s ease-in-out;
+}
+
+.card__title:hover {
+  color: var(--gold);
+}
+
+.card__title:focus-visible {
+  color: var(--blue);
 }
 
 .card__wrap {
@@ -154,18 +175,13 @@
   min-width: 18px;
 }
 
-.card__btn--color {
-  border-color: var(--wine);
-  background-color: var(--wine);
-}
-
 .card__btn--svg {
   border: none;
   background-color: initial;
 }
 
 .card__btn svg {
-  transition: filter .2s ease-in-out;
+  transition: filter 0.2s ease-in-out;
 }
 
 .card__btn:focus-visible svg {
@@ -179,15 +195,6 @@
 @media (max-width: 640px) {
   .card {
     gap: 10px;
-  }
-
-  .card__img {
-    transform: none;
-  }
-
-  .card__img:hover {
-    z-index: 0;
-    transform: none;
   }
 
   .card__span--min {

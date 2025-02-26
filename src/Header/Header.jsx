@@ -1,16 +1,17 @@
+import { Logo } from '../assets/mySVG'
 import CounterMystery from '../CounterMystery/CounterMystery'
 import BtnCreatingCard from '../BtnCreatingCard/BtnCreatingCard'
-import logo from '../assets/Logo.svg'
 import './Header.css'
 import { observer } from 'mobx-react'
+import { Link } from 'react-router'
 
 const Header = () => {
   return (
     <header className="header">
-      <a className='flex title header__link' href={window.location.href} >
-        <img className='logo' src={logo} alt="Магический шар коллекции тайн" />
+      <Link to='/' className='flex title header__link' onClick={() => { StorageCollection.requestCollection }}>
+        <img className='logo' src={Logo} alt="Магический шар коллекции тайн" />
         Коллекция тайн
-      </a>
+      </Link>
 
       <CounterMystery />
 

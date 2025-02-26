@@ -1,28 +1,20 @@
-import SearchMenu from "../SearchMenu/SearchMenu"
-import ListMysteryCards from "../ListMysteryCards/ListMysteryCards"
-import WindowMemo from "../WindowMemo/WindowMemo"
+import SectionMain from "../SectionMain/SectionMain";
+import OpenCard from '../OpenCard/OpenCard'
 import DeletionWarning from "../DeletionWarning/DeletionWarning"
 import CreatingCard from "../CreatingCard/CreatingCard"
-import Scroll from '../assets/scroll.svg?react'
 import './Main.css'
 import { observer } from "mobx-react"
+import { Route, Routes } from 'react-router'
 import StorageCollection from "../Storage/StorageCollection"
 import StorageModal from "../Storage/StorageModal"
 
 const Main = () => {
-  const db = StorageCollection.copyCollection.slice(0, StorageCollection.pageLong)
-  const getPage = () => { StorageCollection.addPageLong }
-
   return (
     <main className='main'>
-      <SearchMenu />
-
-      <ListMysteryCards collection={db} />
-
-      {StorageCollection.copyCollection.length <= 12 || StorageCollection.copyCollection.length === db.length ? null :
-        <button className='btn btn__main' onClick={() => { getPage() }} >Развернуть еще <Scroll className='svg' /></button>}
-
-      <WindowMemo />
+      <Routes>
+        <Route path='/' element={<SectionMain />} />
+        <Route path='/:id' element={<OpenCard />} />
+      </Routes>
 
       {StorageCollection.windowWarning === 'open' && <DeletionWarning />}
 
